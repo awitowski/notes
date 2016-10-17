@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+</head>
+<body>
+
+<div class="not-important-message-container">
+    Message count: <span class="not-important-message-counter">0</span>
+
+</div>
+<div class="important-message-container">
+    Message count: <span class="important-message-counter">0</span>
+
+</div>
+<div class="critical-message-container">
+    Message count: <span class="critical-message-counter">0</span>
+
+</div><br>
+
+<input type="text" placeholder="message title" class="message-title-input"><br>
+<textarea class="message-body-input" placeholder="message body"></textarea><br>
+<input type="radio" name="priority" value="not-important" checked>not important<br>
+<input type="radio" name="priority" value="important">important<br>
+<input type="radio" name="priority" value="critical">critical<br>
+<button class="message-add-button" id="message-add-button">add</button>
+
+
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

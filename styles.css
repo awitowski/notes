@@ -1,0 +1,25 @@
+.not-important-message-container{
+    display: inline-block;
+    background-color: aqua;
+}
+.important-message-container{
+    display: inline-block;
+    background-color: yellow;
+}
+.critical-message-container{
+    display: inline-block;
+    background-color: red;
+}
+
+.not-important-message-container .message{
+    border: double;
+    border-color: black;
+}
+.important-message-container .message{
+    border: double;
+    border-color: black;
+}
+.critical-message-container .message{
+    border: double;
+    border-color: black;
+}
